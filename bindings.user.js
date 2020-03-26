@@ -1,12 +1,11 @@
 // ==UserScript==
 // @name         Grepolis Keybindings
-// @namespace    http://tampermonkey.net/
 // @version      1.0
-// @include        http://*.grepolis.*/game*
-// @include        https://*.grepolis.*/game*
-// @description  try to take over the world!
+// @include      http://*.grepolis.*/game*
+// @include      https://*.grepolis.*/game*
+// @description  Make grepolis easier and faster to navigate.
 // @author       tirissou
-// @grant        none
+// @license 	 MIT
 // ==/UserScript==
 
 (function() {
@@ -140,6 +139,4 @@
             }
         }
     }
-
-    // Your code here...
 })();
